@@ -24,7 +24,7 @@ export function Footer() {
               Leonam Nagel, o simplificador de IA
             </p>
           </div>
-          
+
           <div>
             <h3 className="font-bold mb-4">Serviços</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
@@ -39,13 +39,13 @@ export function Footer() {
             <h3 className="font-bold mb-4">Links Rápidos</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a 
-                  href="https://leonamnagel.com.br"
+                <a
+                  href="https://www.youtube.com/playlist?list=PLAPOY1myiC7AD4xUlIQITx9jRBQn1xyXs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  Curso: IA Generativa na Prática
+                  Curso: IA Generativa na Prática (Free)
                 </a>
               </li>
               <li>
@@ -75,7 +75,7 @@ export function Footer() {
               >
                 contato@leonamnagel.page
               </button>
-              
+
               <div className="flex items-center gap-4">
                 <a
                   href="https://www.instagram.com/leonamnagel/"
@@ -107,7 +107,7 @@ export function Footer() {
         </div>
 
         <Separator className="my-8" />
-        
+
         <div className="text-center text-sm text-muted-foreground">
           © 2024 Leonam Nagel. Todos os direitos reservados.
         </div>

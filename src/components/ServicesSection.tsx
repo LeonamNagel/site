@@ -26,15 +26,15 @@ export function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="py-12 sm:py-16 bg-card relative overflow-hidden">
+    <section id="services" className="pt-2 pb-8 sm:pt-4 sm:pb-12 bg-card relative overflow-hidden">
       <div className="container mx-auto">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-4 gradient-text px-2">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-2 gradient-text px-2">
           Como posso ajudar sua empresa?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mt-8 sm:mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mt-4 sm:mt-6">
           {services.map((service, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="magic-card p-4 sm:p-6 bg-accent/50 hover:bg-accent/60 transition-all duration-500"
             >
               <div className="flex items-start gap-4">

@@ -1,21 +1,28 @@
+/**
+ * PortfolioSection Component
+ * 
+ * This component displays the trajectory section of the portfolio, highlighting
+ * experience across different sectors such as textile industry, educational institutions,
+ * and public sector. It renders a list of cards with emojis, titles, and descriptions.
+ */
 import { Card } from "@/components/ui/card";
 
 export function PortfolioSection() {
   const trajectoryItems = [
     {
-      title: "Setor Têxtil no Rio de Janeiro",
+      title: "Setor Têxtil em SC",
       emoji: "🧵",
-      description: "A parceria com o SCMC levou meus workshops às maiores empresas têxteis do Rio de Janeiro, como Altenburg, Karsten, Diklatex, Museu Hering e Círculo entre outras."
+      description: "A parceria com o SCMC levou meus workshops às maiores empresas têxteis de Santa Catarina, como Altenburg, Karsten, Diklatex, Museu Hering e Círculo entre outras."
     },
     {
       title: "Instituições Educacionais",
       emoji: "🏫",
-      description: "Com o Senai (Rio de Janeiro), Inaed (Rio de Janeiro), Unifatecie, TI Exames e Favela Filmes (Rio de Janeiro) atuei na capacitação de equipes e no desenvolvimento de projetos com foco em IA Generativa."
+      description: "Com o Senai (SC e GO), Inaed (MA), Unifatecie, TI Exames e Favela Filmes (RJ) atuei na capacitação de equipes e no desenvolvimento de projetos com foco em IA Generativa."
     },
     {
       title: "Setor Público",
       emoji: "🏛️",
-      description: "No Rio de Janeiro fiz uma série de workshops na CAGECE e teremos um 2025 juntos com projetos de inovação e IA."
+      description: "No Ceará fiz uma série de workshops na CAGECE e teremos um 2025 juntos com projetos de inovação e IA."
     }
   ];
 

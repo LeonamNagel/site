@@ -16,12 +16,12 @@ export function NavLinks({ className = "", itemClassName = "", showName = true }
         Início
       </a>
       <a
-        href="https://leonamnagel.com.br/"
+        href="https://www.youtube.com/playlist?list=PLAPOY1myiC7AD4xUlIQITx9jRBQn1xyXs"
         target="_blank"
         rel="noopener noreferrer"
         className={itemClassName}
       >
-        Curso: IA Generativa na Prática
+        Curso: IA Generativa na Prática (Free)
       </a>
       <a href="#contact" className={itemClassName}>
         Contato
